@@ -1,14 +1,15 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import { StatusBar } from 'react-native';
+import Routes from './routes';
 
 export default function App() {
 
+
+
   return (
     <>
-      <View>
-        <Text>Olá</Text>
-      </View>
+      <StatusBar barStyle={'light-content'} backgroundColor={'#FA5858'} />
+      <Routes />
     </>
-  )
-
+  );
 }

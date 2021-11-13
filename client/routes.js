@@ -17,7 +17,7 @@ const MainTabScreen = ({ navigation, route }) => {
       screenOptions={({ route }) => ({
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
-          if (route.name == 'Home') {
+          if (route.name == 'Playlist') {
             iconName = focused ? 'musical-notes' : 'musical-notes';
           } else if (route.name == 'Favorits') {
             iconName = focused ? 'heart' : 'heart';
@@ -32,7 +32,7 @@ const MainTabScreen = ({ navigation, route }) => {
     >
       <>
         <MainTab.Screen
-          name='Home'
+          name='Playlist'
           component={Home}
           initialParams={{ rota: navigation }}
           options={{

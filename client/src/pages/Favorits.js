@@ -7,6 +7,8 @@ export default function Favorits() {
     <>
       <View>
         <Text>Olá</Text>
+        <Text>Olá</Text>
+
       </View>
     </>
   )

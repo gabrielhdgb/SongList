@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function teste(){
   return(
-    <Text>oasdadi</Text>
+    <Text>Hello World</Text>
   )
 } 
